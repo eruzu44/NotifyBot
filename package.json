@@ -1,14 +1,15 @@
 {
-  "name": "discordselfbot",
+  "name": "SelfBotNotifyEruzu",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "No_Eruzu",
   "license": "Proprietary",
   "description": "",
   "dependencies": {
-    "discord.js-selfbot-v13": "^3.6.1"
+    "discord.js-selfbot-v13": "^3.6.1",
+    "express": "^4.21.2"
   }
 }
