@@ -23,9 +23,12 @@ client.on("messageCreate", async (message) => {
             const targetGuild = await client.guilds.fetch(targetGuildId);
             if (targetGuild) {
                 const channel =
-                    targetGuild.systemChannel || targetGuild.textChannels.cache.first();
+                    targetGuild.systemChannel ||
+                    targetGuild.textChannels.cache.first();
                 if (channel) {
-                    await channel.send("@everyone Message from <@${specificUserId}>: ${message.content} !");
+                    await channel.send(
+                        "@everyone Message from <@${specificUserId}>: ${message.content} !",
+                    );
                 } else {
                     console.log("No text channel found in target server!");
                 }
