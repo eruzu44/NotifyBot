@@ -10,6 +10,5 @@
   "description": "",
   "dependencies": {
     "discord.js-selfbot-v13": "^3.6.1",
-    "express": "^4.21.2"
   }
 }
