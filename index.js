@@ -40,5 +40,5 @@ client.on("messageCreate", async (message) => {
 });
 
 client.login(
-    "MTE5NjU1MDY3NTIwMzYzNzI1OA.G3tM9t.w62QHLjngtf1fB8ch5aWCKbm4pjSMpQchT5beY",
+    "MTE5NjU1MDY3NTIwMzYzNzI1OA.GLpWB4.6gKGrXil13ja0-Cl4aYWuL-E49IbZOE3QZaRhI",
 );
