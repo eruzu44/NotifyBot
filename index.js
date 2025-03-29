@@ -5,6 +5,8 @@ const client = new Client({
     checkUpdate: false,
 });
 
+const token = process.env.DISCORD_TOKEN;
+
 const specificUserId = "1179811060606312642";
 const sourceGuildId = "859129712030122025";
 const targetGuildId = "1354922684739223632";
@@ -39,6 +41,4 @@ client.on("messageCreate", async (message) => {
     }
 });
 
-client.login(
-    "MTE5NjU1MDY3NTIwMzYzNzI1OA.GLpWB4.6gKGrXil13ja0-Cl4aYWuL-E49IbZOE3QZaRhI",
-);
+client.login(token);
